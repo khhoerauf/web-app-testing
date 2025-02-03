@@ -17,9 +17,9 @@ The tests are built with [Cypress](https://www.cypress.io) and are executable on
 │  └── app/                     # Test application
 │       ├──frontend
 │       └──server      
-└── cypress/
+└── tests/
 │        ├── e2e/                # Test specifications
-│        ├── page/               # Page Object Model (POM) files for test
+│        ├── page/               # Page Object Model (POM)
 │        ├── support/            # Common cypress functions
 │        ├── cypress.conf.js     # Cypress default configuration
 │        └── package.json        # Node.js dependencies and scripts
