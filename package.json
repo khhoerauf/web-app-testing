@@ -1,0 +1,22 @@
+{
+    "name": "bookshelf-web-app-e2e-tests",
+    "version": "1.0.0",
+    "private": true,
+    "author": "web app by @reedsy, e2e tests by @khhoerauf",
+    "scripts": {
+	    "start": "concurrently 'npm:start:frontend' 'npm:start:server'",
+		"start:frontend": "npm start -w frontend",
+		"start:server": "npm start -w server",
+		"open:cypress": "npm run cy:open -w tests",
+        "ci:e2e:chrome": "npm run cy:run:chrome -w tests",
+        "ci:e2e:firefox": "npm run cy:run:chrome -w tests",
+        "ci:e2e:webkit": "npm run cy:run:chrome -w tests"
+	},
+    "workspaces": [
+        "app/*",
+        "tests"
+	],
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
