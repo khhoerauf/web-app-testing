@@ -13,7 +13,7 @@ The tests are built with [Cypress](https://www.cypress.io) and are executable on
 ## Folder Structure
 
 ```
-/reedsy-challenge-quality-assurance 
+/web-app-testing 
 │  └── app/                     # Test application
 │       ├──frontend
 │       └──server      
