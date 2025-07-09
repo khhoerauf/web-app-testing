@@ -17,7 +17,7 @@
 	"author": "@khhoerauf",
 	"license": "ISC",
 	"devDependencies": {
-		"cypress": "^13.17.0",
+		"cypress": "^14.5.1",
 		"playwright-webkit": "^1.49.1",
 		"prettier": "^3.4.2"
 	}
