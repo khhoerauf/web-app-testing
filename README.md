@@ -1,6 +1,6 @@
 # Cypress Test Suite
 
-The tests are built with [Cypress](https://www.cypress.io) and are executable on Chrome, Firefox, and WebKit browsers. Additionally, the tests run on a predefined viewport matching the MacBook 15" screen size, which can be adjusted if necessary. Test suite should focus on making sure that user can see all needed information about book and can easily sort list or search. 
+The tests are built with [Cypress](https://www.cypress.io) and are executable on Chrome, Firefox, and WebKit browsers. Additionally, the tests run on a predefined viewport matching the MacBook 15" screen size, which can be adjusted if necessary. Test suite should focus on making sure that user can see all needed information about book and can easily sort list or search.
 
 #### Table of Contents
 
@@ -27,24 +27,26 @@ The tests are built with [Cypress](https://www.cypress.io) and are executable on
 
 ## Local Development
 
-## Precondition
+### Precondition
 
 - Before you begin, ensure that Node.js is installed on your system.
 - Ensure that you have at least one modern browser Chrome or Firefox installed. 
   All supported browsers can be found [here](https://docs.cypress.io/app/references/launching-browsers#Browsers)
 
-## Install Dependencies and start test application locally
+### Install dependencies and start test application locally
 
-1. Run `npm install`
-2. Run `npm run start` to start running application at http://localhost:5173/
+- Run `npm install`
+- Run `npm run start` to start running application at http://localhost:5173/
 
 ## Running Tests
 
-### Using Cypress GUI
+### Using cypress GUI
 
 - Run `npm run open:cypress` to open the Cypress application and run tests interactively.
 
-### Using Cypress in headless mode
+https://github.com/user-attachments/assets/2bfadbe9-0edc-40aa-880d-8929f59cbd85
+
+### Using cypress in headless mode
 
 - Run `npm run ci:e2e:chrome` to execute all tests in a headless Chrome browser.
 - Run `npm run ci:e2e:firefox` to execute all tests in a headless Firefox browser.
