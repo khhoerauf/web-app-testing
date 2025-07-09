@@ -12,12 +12,12 @@
 		"cy:run:firefox": "cypress run --browser firefox",
 		"cy:run:webkit": "cypress run --browser webkit",
 		"cy:run:ci": "npm run start && cypress run --browser chrome",
-		"format": "prettier 'cypress/*/**.js' --write ."
+		"format": "prettier --write ."
 	},
 	"author": "@khhoerauf",
 	"license": "ISC",
 	"devDependencies": {
-		"cypress": "^13.17.0",
+		"cypress": "^14.5.1",
 		"playwright-webkit": "^1.49.1",
 		"prettier": "^3.4.2"
 	}
