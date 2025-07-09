@@ -4,11 +4,10 @@ The tests are built with [Cypress](https://www.cypress.io) and are executable on
 
 #### Table of Contents
 
-- [FOLDER STRUCTURE](#folder-structure)
-- [LOCAL DEVELOPMENT](#local-development)
-- [RUNNING TESTS](#running-tests)
-- [UI AUTOMATION STRATEGY](#ui-automation-strategy)
-- [KNOWN ISSUES](#known-issues-and-potential-improvements)
+- [Folder Structure](#folder-structure)
+- [Local Development](#local-development)
+- [Running Tests](#running-tests)
+- [UI Automation Strategy](#ui-automation-strategy)
 
 ## Folder Structure
 
