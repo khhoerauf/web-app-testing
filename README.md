@@ -12,17 +12,17 @@ The tests are built with [Cypress](https://www.cypress.io) and are executable on
 ## Folder Structure
 
 ```
-/web-app-testing 
+/web-app-testing
 │  └── app/                     # Test application
 │       ├──frontend
-│       └──server      
+│       └──server
 └── tests/
 │        ├── e2e/                # Test specifications
 │        ├── page/               # Page Object Model (POM)
 │        ├── support/            # Common cypress functions
 │        ├── cypress.conf.js     # Cypress default configuration
 │        └── package.json        # Node.js dependencies and scripts
-└── package.json                 # Support to manage multiple packages 
+└── package.json                 # Support to manage multiple packages
 ```
 
 ## Local Development
@@ -30,7 +30,7 @@ The tests are built with [Cypress](https://www.cypress.io) and are executable on
 ### Precondition
 
 - Before you begin, ensure that Node.js is installed on your system.
-- Ensure that you have at least one modern browser Chrome or Firefox installed. 
+- Ensure that you have at least one modern browser Chrome or Firefox installed.
   All supported browsers can be found [here](https://docs.cypress.io/app/references/launching-browsers#Browsers)
 
 ### Install dependencies and start test application locally
