@@ -13,13 +13,13 @@
 Cypress.Commands.add(
 	'interceptApiRequest',
 	(aliasName, parameters = '*', endpoint = 'api/books') => {
-		return cy.intercept(`${endpoint}${parameters}`).as(aliasName)
+		return cy.intercept(`${endpoint}${parameters}`).as(aliasName);
 	}
-)
+);
 
 Cypress.Commands.add('checkApiResponse', aliasName => {
 	cy.wait(`@${aliasName}`).then(res => {
 		// Check if the response is successful, preferably with the status code
-		expect(res.response).to.not.be.null
-	})
-})
+		expect(res.response).to.not.be.null;
+	});
+});

@@ -1,4 +1,4 @@
-const { defineConfig } = require('cypress')
+const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
 	e2e: {
@@ -11,4 +11,4 @@ module.exports = defineConfig({
 		experimentalWebKitSupport: true,
 		supportFile: './support/e2e.js',
 	},
-})
+});

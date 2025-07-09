@@ -12,7 +12,7 @@
 		"cy:run:firefox": "cypress run --browser firefox",
 		"cy:run:webkit": "cypress run --browser webkit",
 		"cy:run:ci": "npm run start && cypress run --browser chrome",
-		"format": "prettier 'cypress/*/**.js' --write ."
+		"format": "prettier --write ."
 	},
 	"author": "@khhoerauf",
 	"license": "ISC",
